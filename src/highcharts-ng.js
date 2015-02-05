@@ -272,6 +272,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
         };
         $timeout(function() {
             initChart();
+            chart.reflow();
 
 
             if (scope.disableDataWatch) {
